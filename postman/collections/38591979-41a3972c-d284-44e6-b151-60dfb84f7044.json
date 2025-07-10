@@ -25,7 +25,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"token\": \"a546880fc724104584104cae18cdda76\",\n    \"origem\": 14,\n    \"tipo\": 159,\n    \"pessoa\": {\n        \"id\": 2989\n    },\n    \n    \"codRegistro\": 878787\n    \n}",
+							"raw": "{\n    \"token\": \"a546880fc724104584104cae18cdda76\",\n    \"origem\": 14,\n    \"tipo\": 159,\n    \"pessoa\": {\n        \"id\": 2989\n    },\n    \"codRegistro\": 878787    \n}",
 							"options": {
 								"raw": {
 									"language": "json"
