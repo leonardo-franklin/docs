@@ -129,10 +129,12 @@
 						{
 							"listen": "test",
 							"script": {
+								"id": "734c5e81-9326-46cf-9a9f-eb3cfa9849b3",
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -150,7 +152,7 @@
 							"raw": "{\n    \"collection\": {\n        \"info\": {\n            \"name\": \"{{collectionName}}\",\n            \"schema\": \"{{collectionSchemaUrl}}\"\n        },\n        \"item\": [\n            {\n                \"request\": {}\n            }\n        ]\n    }\n}"
 						},
 						"url": {
-							"raw": "https://api.getpostman.com/collections",
+							"raw": "https://api.getpostman.com/collection",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -158,7 +160,7 @@
 								"com"
 							],
 							"path": [
-								"collections"
+								"collection"
 							],
 							"query": [
 								{
