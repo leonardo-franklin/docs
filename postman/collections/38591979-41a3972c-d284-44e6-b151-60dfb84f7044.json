@@ -115,6 +115,18 @@
 							"body": "{\n    \"error\": \"rateLimited\",\n    \"message\": \"Rate limit exceeded. Please retry after 1669048687\"\n}"
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "38591979-6e250242-76a0-433b-91b9-2def885d98e3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "38591979-d5c74603-587e-4380-b3eb-8989f2c2ae49",
