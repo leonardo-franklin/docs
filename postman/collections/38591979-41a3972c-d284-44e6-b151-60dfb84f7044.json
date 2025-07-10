@@ -117,14 +117,43 @@
 					]
 				},
 				{
-					"name": "New Request",
+					"name": "add evento",
 					"id": "38591979-6e250242-76a0-433b-91b9-2def885d98e3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token\": \"a546880fc724104584104cae18cdda76\",\n    \"origem\": 14,\n    \"tipo\": 159,\n    \"pessoa\": {\n        \"id\": 2989\n    },\n    \n    \"codRegistro\": 878787\n    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://172.27.0.2/api/Evento/cadastro",
+							"protocol": "http",
+							"host": [
+								"172",
+								"27",
+								"0",
+								"2"
+							],
+							"path": [
+								"api",
+								"Evento",
+								"cadastro"
+							]
+						}
 					},
 					"response": []
 				}
