@@ -33,7 +33,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://172.27.0.2/api/Evento/cadastro",
+							"raw": "http://172.27.0.2/api/Eventos/cadastros",
 							"protocol": "http",
 							"host": [
 								"172",
