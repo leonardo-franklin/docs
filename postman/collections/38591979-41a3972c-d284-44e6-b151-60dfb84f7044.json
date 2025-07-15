@@ -43,8 +43,8 @@
 							],
 							"path": [
 								"api",
-								"Evento",
-								"cadastro"
+								"Eventos",
+								"cadastros"
 							]
 						}
 					},
